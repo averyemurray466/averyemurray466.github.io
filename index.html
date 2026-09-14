@@ -181,8 +181,14 @@
           </div>
           <a class="text-link" href="https://github.com/averyemurray466" target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
-        <div class="control-cycle">
-          <svg class="control-cycle-diagram" viewBox="0 0 800 620" role="img" aria-label="Pneumatic pocket control cycle">
+        <div class="control-diagrams">
+
+          <!-- LEFT: MAIN CYCLE -->
+          <div class="control-diagram-group">
+            <p class="diagram-label">Primary Pressure Cycle</p>
+
+            <div class="control-cycle">
+              <svg class="control-cycle-diagram" viewBox="0 0 800 620" role="img" aria-label="Pneumatic pocket control cycle">
 
          <defs>
           <marker id="cycle-arrowhead" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
@@ -226,26 +232,18 @@
             </text>
 
           </svg>
+            </div>
+          </div>
+
+         <!-- RIGHT: CONTINUOUS SAFETY CHECK -->
+        <div class="control-diagram-group">
+          <p class="diagram-label">Continuous Safety Check</p>
 
           <div class="safety-check">
-
-      <svg class="safety-check-diagram"
-           viewBox="0 0 620 620"
-           role="img"
-           aria-label="High-pressure safety check">
-
-        <!-- TITLE -->
-        <text
-          x="310"
-          y="55"
-          text-anchor="middle"
-          fill="white"
-          font-size="31"
-          font-family="Inter, sans-serif">
-
-          High-pressure safety check
-
-        </text>
+            <svg class="safety-check-diagram"
+                 viewBox="0 65 620 555"
+                 role="img"
+                 aria-label="High-pressure safety check">
 
 
         <!-- PRESSURE DECISION BOX -->
