@@ -150,25 +150,70 @@
           <h3>Four independently actuated pneumatic subsystems.</h3>
         </div>
         <div class="media-split">
+         <!-- LEFT: ANNOTATED ELECTROMECHANICAL ENCLOSURE -->
           <figure class="image-panel">
-            <img src="assets/manta-electronics.png" alt="Electromechanical enclosure with air pumps, air valves, pressure sensors, motor drivers, and microcontroller." />
-            <figcaption>Electromechanical system housed in the enclosure. Connected to headrest via air tubes. Electronics are powered through a DC power supply and controlled via a single externally mounted switch. </figcaption>
+            <div class="enclosure-annotated">
+
+              <img
+                src="assets/manta-electronics.png"
+                alt="Electromechanical enclosure with air pumps, air valves, pressure sensors, motor drivers, and microcontroller."
+              />
+
+              <!-- AIR PUMPS -->
+              <div class="component-circle circle-pumps"></div>
+              <div class="component-label label-pumps">
+                4× DC Air Pumps
+              </div>
+
+              <!-- SOLENOID VALVES -->
+              <div class="component-circle circle-valves"></div>
+              <div class="component-label label-valves">
+                4× 3/2 Solenoid Valves
+              </div>
+
+              <!-- PRESSURE SENSORS -->
+              <div class="component-circle circle-sensors"></div>
+              <div class="component-label label-sensors">
+                4× Pressure Sensors
+              </div>
+
+              <!-- MOTOR DRIVERS + MICROCONTROLLER -->
+              <div class="component-circle circle-control"></div>
+              <div class="component-label label-control">
+                Motor Drivers + Microcontroller
+              </div>
+
+              <!-- MULTIPLEXER -->
+              <div class="component-circle circle-mux"></div>
+              <div class="component-label label-mux">
+                I²C Sensor Multiplexer
+              </div>
+
+            </div>
+
+            <figcaption>
+              Electromechanical system housed in the enclosure. Connected to headrest via air tubes.
+              Electronics are powered through a DC power supply and controlled via a single externally mounted switch.
+            </figcaption>
           </figure>
+
+
+          <!-- RIGHT: HEADREST VIDEO -->
           <div class="details-panel">
+
             <figure class="image-panel compact-image">
               <video autoplay muted loop playsinline>
                 <source src="assets/manta-headrest.mp4" type="video/mp4">
               </video>
-              <figcaption>Inflatable pockets embedded in the 3D-printed foam inner shell. Air pockets inflate in preprogrammed cycle to apply pressure to the high pressure points of the face to relieve static pressure buildup. Video sped up for demonstration purposes.</figcaption>
+
+              <figcaption>
+                Inflatable pockets embedded in the 3D-printed foam inner shell.
+                Air pockets inflate in preprogrammed cycle to apply pressure to the high pressure
+                points of the face to relieve static pressure buildup.
+                Video sped up for demonstration purposes.
+              </figcaption>
             </figure>
-            <ul class="feature-list">
-              <li><strong>4×</strong> DC air pumps</li>
-              <li><strong>4×</strong> 3/2 solenoid valves</li>
-              <li><strong>4×</strong> pressure sensors</li>
-              <li>I²C sensor multiplexing</li>
-              <li>Motor drivers + microcontroller control</li>
-              <li>5 V, 4 A IEC 60601-1 compliant power supply</li>
-            </ul>
+
           </div>
         </div>
       </div>
