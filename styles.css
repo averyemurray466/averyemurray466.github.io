@@ -158,9 +158,9 @@ a { color: inherit; }
 .education-degree { margin:0; font-weight:720; font-size:1.2rem; }
 .education-school, .education-minor { margin:5px 0 0; color:var(--muted); font-size:1.05rem; }
 .education-minor { font-weight:700; color:#fff; }
-.school-logo.usc { width:60px;}
+.school-logo.usc { width:60px; background:transparent;}
 .dual-logos { display:grid; gap:8px; width:110px; flex:none; }
-.dual-logos img { max-height:36px; width:100%; object-fit:contain; object-position:right; }
+.dual-logos img { max-height:36px; width:100%; object-fit:contain; object-position:right; background:white;}
 .education-divider { height:1px; background:var(--line); margin:20px 0; }
 
 .selected-work { padding: 94px 0 116px; }
