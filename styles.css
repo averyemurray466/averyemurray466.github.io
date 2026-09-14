@@ -279,75 +279,49 @@ a { color: inherit; }
 }
 
 
-/* AIR PUMPS */
+/* AIR PUMP */
 .circle-pumps {
-  width: 16%;
+  width: 15.5%;
   height: 22%;
-  top: 18%;
-  left: 10.5%;
-}
-
-.label-pumps {
-  top: 29.5%;
-  left: 2%;
+  top: 16.5%;
+  left: 12.5%;
 }
 
 
-/* SOLENOID VALVES */
+/* 3/2 SOLENOID VALVE */
 .circle-valves {
-  width: 11.5%;
+  width: 11%;
   aspect-ratio: 1;
-  top: 33%;
-  left: 25.5%;
-}
-
-.label-valves {
-  top: 15.5%;
-  left: 20.5%;
+  top: 27%;
+  left: 27.5%;
 }
 
 
-/* PRESSURE SENSORS */
+/* PRESSURE SENSOR */
 .circle-sensors {
-  width: 15%;
-  height: 16%;
-  top: 21%;
-  left: 54.5%;
-}
-
-.label-sensors {
-  top: 14%;
-  left: 52%;
+  width: 10.5%;
+  aspect-ratio: 1;
+  top: 19%;
+  left: 37%;
 }
 
 
 /* MOTOR DRIVERS + MICROCONTROLLER */
 .circle-control {
-  width: 37%;
-  height: 80%;
-  top: 37%;
-  left: 31.5%;
-}
-
-.label-control {
-  top: 69.5%;
-  left: 34.5%;
+  width: 19%;
+  aspect-ratio: 1;
+  top: 36.5%;
+  left: 36.5%;
 }
 
 
-/* I2C MULTIPLEXER */
+/* I2C SENSOR MULTIPLEXER */
 .circle-mux {
-  width: 11%;
-  height: 11%;
-  top: 20.5%;
-  left: 34.5%;
+  width: 15%;
+  aspect-ratio: 1;
+  top: 36.5%;
+  left: 56.5%;
 }
-
-.label-mux {
-  top: 4%;
-  left: 39%;
-}
-
 .code-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
 .code-card { padding:18px; border-radius:var(--radius); border:1px solid rgba(255,255,255,.22); background:rgba(255,255,255,.08); }
 .code-card img { width:100%; min-height:132px; object-fit:contain; background:#fff; border-radius:14px; padding:10px; }
