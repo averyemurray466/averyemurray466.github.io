@@ -154,13 +154,13 @@ a { color: inherit; }
   box-shadow:var(--shadow);
 }
 .education-row { display:flex; gap:16px; align-items:flex-start; justify-content:space-between; }
-.education-row-stacked { align-items:flex-end; }
+.education-row-stacked { flex-direction:column; align-items:stretch; }
 .education-degree { margin:0; font-weight:720; font-size:1.2rem; }
 .education-school, .education-minor { margin:5px 0 0; color:var(--muted); font-size:1.05rem; }
 .education-minor { font-weight:700; color:#fff; }
 .school-logo.usc { width:90px; background:transparent;}
-.dual-logos { display:grid; gap:8px; width:160px; flex:none; }
-.dual-logos img { max-height:52px; width:100%; object-fit:contain; object-position:right; background:transparent;}
+.dual-logos { display:flex; align-items:center; gap:22px; width:100%; margin-top:18px; }
+.dual-logos img { max-height:52px; width:auto; object-fit:contain; background:transparent;}
 .education-divider { height:1px; background:var(--line); margin:20px 0; }
 
 .selected-work { padding: 94px 0 116px; }
