@@ -281,15 +281,15 @@ a { color: inherit; }
 
 /* AIR PUMPS */
 .circle-pumps {
-  width: 15%;
-  aspect-ratio: 1;
-  top: 41.5%;
-  left: 12.5%;
+  width: 16%;
+  height: 22%;
+  top: 18%;
+  left: 10.5%;
 }
 
 .label-pumps {
-  top: 31.5%;
-  left: 2.5%;
+  top: 29.5%;
+  left: 2%;
 }
 
 
@@ -309,42 +309,42 @@ a { color: inherit; }
 
 /* PRESSURE SENSORS */
 .circle-sensors {
-  width: 12%;
-  aspect-ratio: 1;
-  top: 26.5%;
-  left: 57.5%;
+  width: 15%;
+  height: 16%;
+  top: 21%;
+  left: 54.5%;
 }
 
 .label-sensors {
-  top: 14.5%;
-  left: 51.5%;
+  top: 14%;
+  left: 52%;
 }
 
 
 /* MOTOR DRIVERS + MICROCONTROLLER */
 .circle-control {
-  width: 24%;
-  aspect-ratio: 1;
-  top: 53%;
-  left: 40.5%;
+  width: 37%;
+  height: 29%;
+  top: 37%;
+  left: 31.5%;
 }
 
 .label-control {
-  top: 76.5%;
-  left: 36%;
+  top: 69.5%;
+  left: 34.5%;
 }
 
 
 /* I2C MULTIPLEXER */
 .circle-mux {
-  width: 14.5%;
-  aspect-ratio: 1;
-  top: 33.5%;
-  left: 39.5%;
+  width: 11%;
+  height: 11%;
+  top: 20.5%;
+  left: 34.5%;
 }
 
 .label-mux {
-  top: 4.5%;
+  top: 4%;
   left: 39%;
 }
 
