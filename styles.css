@@ -237,6 +237,134 @@ a { color: inherit; }
 .feature-list li { padding-bottom:9px; border-bottom:1px solid rgba(255,255,255,.12); color:var(--muted); }
 .feature-list li:last-child { border-bottom:0; padding-bottom:0; }
 .feature-list strong { color:#fff; font-size:1.15em; }
+/* MANTA ELECTROMECHANICAL COMPONENT ANNOTATIONS */
+
+.enclosure-annotated {
+  position: relative;
+  width: 100%;
+}
+
+.enclosure-annotated > img {
+  width: 100%;
+  display: block;
+}
+
+
+/* WHITE COMPONENT CIRCLES */
+
+.component-circle {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 50%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+
+/* BLUE COMPONENT LABELS */
+
+.component-label {
+  position: absolute;
+  z-index: 3;
+
+  padding: 5px 7px;
+
+  background: var(--teal);
+  color: white;
+
+  border: 2px solid white;
+  border-radius: 12px;
+
+  font-size: .65rem;
+  font-weight: 650;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+/* -------------------- */
+/* AIR PUMPS */
+/* -------------------- */
+
+.circle-pumps {
+  width: 16%;
+  aspect-ratio: 1;
+  top: 31%;
+  left: 5%;
+}
+
+.label-pumps {
+  top: 5%;
+  left: 3%;
+}
+
+
+/* -------------------- */
+/* SOLENOID VALVES */
+/* -------------------- */
+
+.circle-valves {
+  width: 15%;
+  aspect-ratio: 1;
+  top: 34%;
+  left: 26%;
+}
+
+.label-valves {
+  top: 5%;
+  left: 25%;
+}
+
+
+/* -------------------- */
+/* PRESSURE SENSORS */
+/* -------------------- */
+
+.circle-sensors {
+  width: 13%;
+  aspect-ratio: 1;
+  top: 25%;
+  left: 52%;
+}
+
+.label-sensors {
+  top: 5%;
+  left: 48%;
+}
+
+
+/* -------------------- */
+/* MOTOR DRIVERS + MICROCONTROLLER */
+/* -------------------- */
+
+.circle-control {
+  width: 24%;
+  aspect-ratio: 1.2;
+  top: 43%;
+  left: 36%;
+}
+
+.label-control {
+  top: 62%;
+  left: 25%;
+}
+
+
+/* -------------------- */
+/* I2C MULTIPLEXER */
+/* -------------------- */
+
+.circle-mux {
+  width: 15%;
+  aspect-ratio: 1;
+  top: 36%;
+  left: 68%;
+}
+
+.label-mux {
+  top: 15%;
+  right: 2%;
+}
 
 .code-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
 .code-card { padding:18px; border-radius:var(--radius); border:1px solid rgba(255,255,255,.22); background:rgba(255,255,255,.08); }
