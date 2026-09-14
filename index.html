@@ -197,8 +197,133 @@
             <p>Custom functions define pump and valve behavior while safety logic checks pressure limits.</p>
           </article>
         </div>
-        <div class="cycle-flow" aria-label="Pocket control cycle">
-          <span>Initialize</span><b>→</b><span>Fill</span><b>→</b><span>Hold 10 s</span><b>→</b><span>Release</span><b>→</b><span>Next pocket</span>
+        <div class="control-cycle">
+          <svg
+            class="control-cycle-diagram"
+            viewBox="0 0 900 760"
+            role="img"
+            aria-labelledby="cycle-title cycle-description"
+          >
+            <title id="cycle-title">Pneumatic pocket control cycle</title>
+            <desc id="cycle-description">
+              Fill pocket with air, hold pressure for ten seconds, release air,
+              then switch to the next air pocket and repeat.
+            </desc>
+
+            <defs>
+              <marker
+                id="cycle-arrowhead"
+                markerWidth="14"
+                markerHeight="14"
+                refX="11"
+                refY="7"
+                orient="auto"
+                markerUnits="strokeWidth"
+              >
+                <path d="M0,0 L14,7 L0,14 Z" fill="white"></path>
+              </marker>
+            </defs>
+
+            <!-- ARROWS -->
+            <path
+              class="cycle-arrow"
+              d="M535 215 L595 300"
+              marker-end="url(#cycle-arrowhead)"
+            />
+
+            <path
+              class="cycle-arrow"
+              d="M595 460 L535 545"
+              marker-end="url(#cycle-arrowhead)"
+            />
+
+            <path
+              class="cycle-arrow"
+              d="M365 545 L305 460"
+              marker-end="url(#cycle-arrowhead)"
+            />
+
+            <path
+              class="cycle-arrow"
+              d="M305 300 L365 215"
+              marker-end="url(#cycle-arrowhead)"
+            />
+
+              <!-- TOP -->
+            <circle
+              class="cycle-node"
+              cx="450"
+              cy="135"
+              r="115"
+            />
+
+            <text
+              class="cycle-node-text"
+              x="450"
+              y="125"
+              text-anchor="middle"
+              >
+              <tspan x="450" dy="0">Fill pocket</tspan>
+              <tspan x="450" dy="38">with air</tspan>
+            </text>
+
+            <!-- RIGHT -->
+            <circle
+              class="cycle-node"
+              cx="675"
+              cy="380"
+              r="115"
+            />
+
+            <text
+              class="cycle-node-text"
+              x="675"
+              y="345"
+              text-anchor="middle"
+            >
+              <tspan x="675" dy="0">Hold</tspan>
+              <tspan x="675" dy="38">pressure</tspan>
+              <tspan x="675" dy="38">for 10</tspan>
+              <tspan x="675" dy="38">seconds</tspan>
+            </text>
+
+            <!-- BOTTOM -->
+            <circle
+              class="cycle-node"
+              cx="450"
+              cy="625"
+              r="115"
+            />
+
+            <text
+              class="cycle-node-text"
+              x="450"
+              y="615"
+              text-anchor="middle"
+            >
+              <tspan x="450" dy="0">Release</tspan>
+              <tspan x="450" dy="38">Air</tspan>
+            </text>
+
+            <!-- LEFT -->
+            <circle
+              class="cycle-node"
+              cx="225"
+              cy="380"
+              r="115"
+            />
+
+            <text
+              class="cycle-node-text"
+              x="225"
+              y="345"
+              text-anchor="middle"
+            >
+              <tspan x="225" dy="0">Switch to</tspan>
+              <tspan x="225" dy="38">next air</tspan>
+              <tspan x="225" dy="38">pocket</tspan>
+            </text>
+          </svg>
         </div>
       </div>
 
