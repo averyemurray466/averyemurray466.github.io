@@ -201,16 +201,17 @@
           <svg class="control-cycle-diagram" viewBox="0 0 800 620" role="img" aria-label="Pneumatic pocket control cycle">
 
             <defs>
-              <marker id="cycle-arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-              <path d="M0,0 L12,6 L0,12 Z" fill="white"></path>
-              </marker>
-            </defs>
+              <defs>
+          <marker id="cycle-arrowhead" markerWidth="9" markerHeight="9" refX="7.5" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+            <path d="M0,0 L9,4.5 L0,9 Z" fill="white"></path>
+          </marker>
+        </defs>
 
-            <!-- Arrows -->
-            <path d="M460 165 C510 195 555 235 575 265" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" marker-end="url(#cycle-arrowhead)" />
-            <path d="M575 355 C550 405 505 450 460 470" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" marker-end="url(#cycle-arrowhead)" />
-            <path d="M340 470 C290 445 245 400 220 355" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" marker-end="url(#cycle-arrowhead)" />
-            <path d="M225 265 C250 220 300 175 340 150" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" marker-end="url(#cycle-arrowhead)" />
+        <!-- Arrows with visible tails -->
+        <path d="M435 190 Q500 220 540 275" fill="none" stroke="white" stroke-width="8" stroke-linecap="round" marker-end="url(#cycle-arrowhead)" />
+        <path d="M560 380 Q530 445 455 475" fill="none" stroke="white" stroke-width="8" stroke-linecap="round" marker-end="url(#cycle-arrowhead)" />
+        <path d="M345 475 Q270 445 235 380" fill="none" stroke="white" stroke-width="8" stroke-linecap="round" marker-end="url(#cycle-arrowhead)" />
+        <path d="M220 275 Q255 220 325 185" fill="none" stroke="white" stroke-width="8" stroke-linecap="round" marker-end="url(#cycle-arrowhead)" />
 
             <!-- Fill -->
             <circle cx="400" cy="110" r="80" fill="#176b89" stroke="white" stroke-width="3" />
