@@ -114,7 +114,7 @@ a { color: inherit; }
 }
 .hero-subtitle {
   margin:28px 0 0;
-  font-size:clamp(1rem, 1.5vw, 1.2rem);
+  font-size:clamp(1.2rem, 1.8vw, 1.5rem);
   font-weight:600;
   word-spacing:.2em;
 }
