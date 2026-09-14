@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Avery Murray — medical device product development portfolio spanning electromechanical systems, prosthetics, EMG calibration, and machine learning." />
+  <title>Avery Murray | Medical Device Product Development</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="page-gradient" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Avery Murray home">AM</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#manta">MANTA</a>
+      <a href="#emg">EMG</a>
+      <a href="#ml">ML</a>
+      <a class="nav-cta" href="https://github.com/averyemurray466" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Medical Device Product Development</p>
+        <h1>Avery<br />Murray</h1>
+        <p class="hero-subtitle">Prototyping <span>•</span> Testing <span>•</span> Verification &amp; Validation</p>
+        <p class="hero-intro">Electrical engineering graduate student building practical medical technologies across hardware, software, biomechanics, and data-driven design.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">View selected work</a>
+          <a class="button button-ghost" href="https://github.com/averyemurray466" target="_blank" rel="noreferrer">View GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero-profile reveal">
+        <div class="portrait-frame">
+          <img src="assets/avery-portrait.png" alt="Portrait of Avery Murray" />
+        </div>
+        <div class="education-card">
+          <div class="education-row">
+            <div>
+              <p class="education-degree">M.S. Electrical Engineering</p>
+              <p class="education-school">University of Southern California · Current</p>
+            </div>
+            <img src="assets/usc-logo.png" alt="USC logo" class="school-logo usc" />
+          </div>
+          <div class="education-divider"></div>
+          <div class="education-row education-row-stacked">
+            <div>
+              <p class="education-degree">B.S. Biomedical Engineering</p>
+              <p class="education-school">NC State &amp; UNC–Chapel Hill</p>
+              <p class="education-minor">Minor: Computer Science</p>
+            </div>
+            <div class="dual-logos" aria-label="NC State and UNC logos">
+              <img src="assets/ncstate-logo.png" alt="NC State University logo" />
+              <img src="assets/unc-logo.png" alt="UNC Chapel Hill logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section-shell selected-work">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Engineering from clinical need to tested prototype.</h2>
+      </div>
+      <div class="project-grid">
+        <a class="project-card project-card-large reveal" href="#manta">
+          <img src="assets/manta-final-product.png" alt="MANTA PressureWave facial support prototype" />
+          <div class="project-card-overlay"></div>
+          <div class="project-card-content">
+            <p class="project-kicker">Medical Device · Electromechanical</p>
+            <h3>MANTA PressureWave Facial Support</h3>
+            <p>Four-channel pneumatic pressure modulation for prone surgical positioning.</p>
+          </div>
+        </a>
+        <a class="project-card reveal" href="#drying">
+          <img src="assets/drying-station.png" alt="SLA 3D-print drying station" />
+          <div class="project-card-overlay"></div>
+          <div class="project-card-content">
+            <p class="project-kicker">Product Development</p>
+            <h3>SLA 3D-Print Drying Station</h3>
+            <p>75% average reduction in drying time.</p>
+          </div>
+        </a>
+        <a class="project-card reveal" href="#prosthetic">
+          <img src="assets/prosthetic-hand.png" alt="Custom 3D-printed prosthetic hand" />
+          <div class="project-card-overlay"></div>
+          <div class="project-card-content">
+            <p class="project-kicker">Prosthetics · 3D Printing</p>
+            <h3>Custom Prosthetic Hand</h3>
+            <p>Wrist-flexion-driven finger grasp.</p>
+          </div>
+        </a>
+        <a class="project-card reveal" href="#emg">
+          <img src="assets/emg-calibration.png" alt="TA and gastrocnemius EMG fitting plot" />
+          <div class="project-card-overlay"></div>
+          <div class="project-card-content">
+            <p class="project-kicker">Research · Signal Processing</p>
+            <h3>EMG Calibration Optimization</h3>
+            <p>Automated MVMC selection to reduce subjective calibration.</p>
+          </div>
+        </a>
+        <a class="project-card reveal" href="#ml">
+          <img src="assets/ml-confusion-matrix.png" alt="Neural network confusion matrix" />
+          <div class="project-card-overlay"></div>
+          <div class="project-card-content">
+            <p class="project-kicker">Machine Learning</p>
+            <h3>Classifier &amp; Regression Model Design</h3>
+            <p>Compared classical and neural models on medical datasets.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="manta" class="project-section section-shell">
+      <div class="project-header reveal">
+        <div>
+          <p class="project-number">01 / Flagship Project</p>
+          <h2>MANTA PressureWave Facial Support</h2>
+        </div>
+        <p class="role-line">Project Manager &amp; Electromechanical Systems Designer · Team of 5 · Concept → Functional Prototype</p>
+      </div>
+
+      <div class="problem-solution reveal">
+        <article>
+          <span class="label">Clinical problem</span>
+          <h3>Prone positioning can create prolonged, uneven facial pressure.</h3>
+          <p>Pressure concentration during surgery can contribute to facial pressure wounds.</p>
+        </article>
+        <article class="accent-panel">
+          <span class="label">Design goal</span>
+          <h3>Redistribute facial pressure throughout prone procedures.</h3>
+          <p>Develop a pressure-modulating headrest using independently controlled pneumatic pockets.</p>
+        </article>
+        <div class="clinical-visual">
+          <img src="assets/manta-clinical-diagram.png" alt="Diagram of prone surgical positioning and facial support" />
+        </div>
+      </div>
+
+      <div class="subsection reveal">
+        <div class="subsection-heading">
+          <p class="eyebrow">Electromechanical Design</p>
+          <h3>Four independently actuated pneumatic subsystems.</h3>
+        </div>
+        <div class="media-split">
+          <figure class="image-panel">
+            <img src="assets/manta-electronics.png" alt="Electromechanical enclosure with pumps, valves, sensors, and controller" />
+            <figcaption>Electromechanical system housed in the control enclosure.</figcaption>
+          </figure>
+          <div class="details-panel">
+            <figure class="image-panel compact-image">
+              <img src="assets/manta-headrest.png" alt="Headrest interior showing inflatable pockets" />
+              <figcaption>Inflatable pockets embedded in the 3D-printed foam inner shell.</figcaption>
+            </figure>
+            <ul class="feature-list">
+              <li><strong>4×</strong> DC air pumps</li>
+              <li><strong>4×</strong> 3/2 solenoid valves</li>
+              <li><strong>4×</strong> pressure sensors</li>
+              <li>I²C sensor multiplexing</li>
+              <li>Motor drivers + microcontroller control</li>
+              <li>5 V, 4 A IEC 60601-1 compliant power supply</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="subsection reveal">
+        <div class="subsection-heading inline-heading">
+          <div>
+            <p class="eyebrow">Embedded Control · C++</p>
+            <h3>State-based cycling with a continuous high-pressure safety path.</h3>
+          </div>
+          <a class="text-link" href="https://github.com/averyemurray466" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+        <div class="code-grid">
+          <article class="code-card">
+            <img src="assets/manta-enum.png" alt="C++ PocketState enum code" />
+            <h4>State machine</h4>
+            <p>A custom enum defines EMPTY, FILLING, and HOLDING states for each pneumatic pocket.</p>
+          </article>
+          <article class="code-card">
+            <img src="assets/manta-struct.png" alt="C++ Pocket struct code" />
+            <h4>Subsystem abstraction</h4>
+            <p>A pocket struct groups pump, valve, pressure sensor, state, and timing data.</p>
+          </article>
+          <article class="code-card">
+            <img src="assets/manta-valve-code.png" alt="C++ valve control function" />
+            <h4>Actuation functions</h4>
+            <p>Custom functions define pump and valve behavior while safety logic checks pressure limits.</p>
+          </article>
+        </div>
+        <div class="cycle-flow" aria-label="Pocket control cycle">
+          <span>Initialize</span><b>→</b><span>Fill</span><b>→</b><span>Hold 10 s</span><b>→</b><span>Release</span><b>→</b><span>Next pocket</span>
+        </div>
+      </div>
+
+      <div class="subsection reveal">
+        <div class="subsection-heading">
+          <p class="eyebrow">Prototype &amp; Testing</p>
+          <h3>Pressure cycling produced the intended alternating load pattern.</h3>
+        </div>
+        <div class="testing-grid">
+          <div class="prototype-stack">
+            <figure class="image-panel">
+              <img src="assets/manta-concept.png" alt="Original MANTA design concept" />
+              <figcaption>Design concept.</figcaption>
+            </figure>
+            <figure class="image-panel">
+              <img src="assets/manta-final-product.png" alt="Final MANTA prototype" />
+              <figcaption>Functional prototype.</figcaption>
+            </figure>
+          </div>
+          <figure class="image-panel pressure-panel">
+            <img src="assets/manta-pressure-graph.png" alt="Average pressure over time for four air pockets" />
+            <figcaption>Each line represents average pressure in one air pocket during one minute of cyclic pressure modulation.</figcaption>
+            <div class="result-callout">High pressure in one pocket corresponds with reduced pressure in the others, demonstrating effective pressure modulation.</div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="drying" class="project-section section-shell compact-project">
+      <div class="project-header reveal">
+        <div>
+          <p class="project-number">02 / Product Development</p>
+          <h2>SLA 3D-Print Drying Station</h2>
+        </div>
+        <p class="role-line">Project Manager · Team of 3 · Concept → Functional Product</p>
+      </div>
+      <div class="compact-project-grid reveal">
+        <div class="compact-copy">
+          <div class="mini-panel"><span class="label">Problem</span><p>Lengthy resin drying created messy, hazardous work areas.</p></div>
+          <div class="mini-panel"><span class="label">Solution</span><p>Ventilated multi-print drying station designed to improve throughput and containment.</p></div>
+          <div class="contrib-block">
+            <span class="label">My contributions</span>
+            <ul>
+              <li>Component sourcing</li>
+              <li>Task delegation</li>
+              <li>Budgeting</li>
+              <li>Milled ventilation slots</li>
+              <li>Cut and finished enclosure panels</li>
+            </ul>
+          </div>
+        </div>
+        <figure class="image-panel showcase-image">
+          <img src="assets/drying-station.png" alt="Ventilated SLA 3D-print drying station" />
+          <figcaption>Removable racks, four DC-powered fans, a magnetic enclosure door, and clear acrylic viewing panel.</figcaption>
+        </figure>
+        <div class="metric-block"><strong>75%</strong><span>average reduction in drying time</span></div>
+      </div>
+    </section>
+
+    <section id="prosthetic" class="project-section section-shell compact-project">
+      <div class="project-header reveal">
+        <div>
+          <p class="project-number">03 / Prosthetics</p>
+          <h2>Custom Prosthetic Hand</h2>
+        </div>
+        <p class="role-line">Project Manager · Team of 7 · Concept → Final Product</p>
+      </div>
+      <div class="compact-project-grid prosthetic-grid reveal">
+        <div class="compact-copy">
+          <div class="mini-panel"><span class="label">Problem</span><p>Pediatric prosthetics are costly and require frequent replacement as children grow.</p></div>
+          <div class="mini-panel"><span class="label">Solution</span><p>Custom-sized, 3D-printed prosthetic hand using wrist flexion to actuate finger grasp.</p></div>
+          <div class="contrib-block">
+            <span class="label">My contributions</span>
+            <ul>
+              <li>Final design decisions</li>
+              <li>Client communication</li>
+              <li>Task delegation</li>
+              <li>Project scheduling &amp; milestone tracking</li>
+            </ul>
+          </div>
+        </div>
+        <figure class="image-panel showcase-image">
+          <img src="assets/prosthetic-hand.png" alt="Custom 3D-printed prosthetic hand" />
+          <figcaption>Custom 3D-printed prosthetic hand.</figcaption>
+        </figure>
+        <figure class="image-panel showcase-image">
+          <img src="assets/prosthetic-wrist-flexion.png" alt="Wrist and hand position demonstrating flexion" />
+          <figcaption>Wrist flexion mechanically drives finger grasp.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="emg" class="project-section section-shell compact-project">
+      <div class="project-header reveal">
+        <div>
+          <p class="project-number">04 / Research &amp; Signal Processing</p>
+          <h2>EMG Calibration Optimization for Ankle Prosthesis Control</h2>
+        </div>
+        <p class="role-line">Independent Project · End-to-End Development · Concept → Final Implementation</p>
+      </div>
+      <div class="emg-grid reveal">
+        <div class="compact-copy">
+          <div class="mini-panel"><span class="label">Problem</span><p>Direct EMG prosthesis calibration relied on manually selected maximum voluntary muscle contraction values from the Tibialis Anterior and Gastrocnemius, introducing subjectivity and repeated recalibration.</p></div>
+          <div class="mini-panel"><span class="label">Solution</span><p>Developed a fitting algorithm that automatically selected MVMC values from the top percentage of EMG contractions.</p></div>
+          <div class="result-callout standalone">Reduced subjectivity through automated MVMC selection.</div>
+        </div>
+        <figure class="image-panel emg-figure">
+          <img src="assets/emg-calibration.png" alt="Filtered TA and GAS muscle contractions with fitted lines" />
+          <figcaption>Filtered TA and GAS contractions with linear fits calculated from the top 80% of signal amplitudes for automated MVMC selection.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="ml" class="project-section section-shell ml-section">
+      <div class="project-header reveal">
+        <div>
+          <p class="project-number">05 / Machine Learning</p>
+          <h2>ML Model Design</h2>
+        </div>
+        <p class="role-line">Classifier + Regression · Medical datasets</p>
+      </div>
+
+      <div class="ml-columns">
+        <article class="ml-column reveal">
+          <div class="ml-heading">
+            <p class="eyebrow">Classifier</p>
+            <h3>Malignant vs. benign biopsy classification</h3>
+          </div>
+          <p><strong>Problem:</strong> Classify 513 breast biopsy samples as malignant or benign using six morphological features: radius, texture, perimeter, area, smoothness, and compactness.</p>
+          <p><strong>Models:</strong> Linear Discriminant Analysis, Support Vector Machine, Neural Network.</p>
+          <div class="ml-visuals">
+            <img src="assets/ml-classifier-table.png" alt="Classifier model performance table" class="metric-table" />
+            <img src="assets/ml-confusion-matrix.png" alt="Confusion matrix for neural network classifier" class="ml-plot" />
+          </div>
+          <div class="result-callout standalone">Neural network provided the best class separation: AUC 0.9812 and 94.2% accuracy.</div>
+        </article>
+
+        <article class="ml-column reveal">
+          <div class="ml-heading">
+            <p class="eyebrow">Regression</p>
+            <h3>One-year diabetes progression prediction</h3>
+          </div>
+          <p><strong>Problem:</strong> Predict one-year diabetes progression for 400 patients from ten health measurements.</p>
+          <p><strong>Models:</strong> Linear Regression, Bagged Forest Regression, Neural Network Regression.</p>
+          <div class="ml-visuals">
+            <img src="assets/ml-regression-table.png" alt="Regression model performance table" class="metric-table" />
+            <img src="assets/ml-regression-plot.png" alt="Predicted versus measured diabetes response plot" class="ml-plot" />
+          </div>
+          <div class="result-callout standalone">Linear regression produced the lowest MSE and highest adjusted R², outperforming the more complex models.</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="closing section-shell reveal">
+      <p class="eyebrow">Engineering Focus</p>
+      <h2>Medical devices at the intersection of hardware, software, and human-centered design.</h2>
+      <a class="button button-primary" href="#top">Back to top ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>© <span id="year"></span> Avery Murray</span>
+    <a href="https://github.com/averyemurray466" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </footer>
+</body>
+</html>
