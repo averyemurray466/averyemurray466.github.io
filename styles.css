@@ -280,6 +280,8 @@ a { color: inherit; }
 .ml-columns { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
 .ml-column { padding:26px; border:1px solid rgba(255,255,255,.25); background:rgba(255,255,255,.07); border-radius:var(--radius); }
 .ml-heading h3 { margin:0 0 18px; font-size:1.8rem; line-height:1.12; }
+.ml-next-step { margin-top:18px; padding:26px; border-radius:var(--radius); background:#176b89; }
+.ml-next-step h3 { margin:8px 0 0; }
 .ml-column > p { color:var(--muted); }
 .ml-column > p strong { color:#fff; }
 .ml-visuals { display:grid; gap:14px; margin:22px 0 16px; }
