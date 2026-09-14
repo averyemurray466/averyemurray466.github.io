@@ -243,8 +243,11 @@ a { color: inherit; }
 .code-card img { width:100%; min-height:132px; object-fit:contain; background:#fff; border-radius:14px; padding:10px; }
 .code-card h4 { margin:18px 0 6px; font-size:1.12rem; }
 .code-card p { margin:0; color:var(--muted); font-size:.9rem; }
-.control-cycle { width:100%; margin-top:28px; display:flex; justify-content:center; }
-.control-cycle-diagram { width:min(100%, 700px); height:auto; display:block; }
+.control-diagrams { display:grid; grid-template-columns:1fr 1fr; gap:28px; align-items:center; margin-top:28px; }
+.control-cycle { width:100%; margin-top:0; display:flex; justify-content:center; }
+.control-cycle-diagram { width:100%; height:auto; display:block; }
+.safety-check { width:100%; display:flex; justify-content:center; }
+.safety-check-diagram { width:100%; height:auto; display:block; } }
 
 .testing-grid { display:grid; grid-template-columns:.85fr 1.15fr; gap:18px; }
 .prototype-stack { display:grid; gap:18px; }
@@ -335,4 +338,5 @@ a { color: inherit; }
   .showcase-image img, .prosthetic-grid .showcase-image img { min-height:0; max-height:520px; }
   .metric-block { min-height:220px; }
   .site-footer { flex-direction:column; }
+  .control-diagrams { grid-template-columns:1fr; }
 }
