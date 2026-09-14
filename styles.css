@@ -244,10 +244,12 @@ a { color: inherit; }
 .code-card h4 { margin:18px 0 6px; font-size:1.12rem; }
 .code-card p { margin:0; color:var(--muted); font-size:.9rem; }
 .control-diagrams { display:grid; grid-template-columns:1fr 1fr; gap:28px; align-items:center; margin-top:28px; }
+.control-diagram-group { display:flex; flex-direction:column; align-items:stretch; }
+.diagram-label { margin:0 0 8px; text-align:center; text-transform:uppercase; letter-spacing:.12em; font-size:.85rem; font-weight:800; color:rgba(255,255,255,.72); }
 .control-cycle { width:100%; margin-top:0; display:flex; justify-content:center; }
 .control-cycle-diagram { width:100%; height:auto; display:block; }
 .safety-check { width:100%; display:flex; justify-content:center; }
-.safety-check-diagram { width:100%; height:auto; display:block; } }
+.safety-check-diagram { width:100%; height:auto; display:block; }
 
 .testing-grid { display:grid; grid-template-columns:.85fr 1.15fr; gap:18px; }
 .prototype-stack { display:grid; gap:18px; }
