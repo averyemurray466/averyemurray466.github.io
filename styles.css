@@ -334,3 +334,18 @@ a { color: inherit; }
   .cycle-flow { border-radius:22px; }
   .site-footer { flex-direction:column; }
 }
+
+/* Increase small text throughout site */
+.eyebrow,
+.education-school,
+.education-minor,
+.project-card-content p,
+.project-kicker,
+.project-number,
+.label,
+.image-panel figcaption,
+.code-card p,
+.mini-panel p,
+.site-footer {
+  font-size: 1.2rem !important;
+}
