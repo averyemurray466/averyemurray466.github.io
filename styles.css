@@ -138,16 +138,16 @@ a { color: inherit; }
 .button-ghost { border:1px solid rgba(255,255,255,.36); background:rgba(255,255,255,.06); }
 .button-ghost:hover { background:rgba(255,255,255,.12); transform:translateY(-2px); }
 
-.hero-profile { display:grid; grid-template-columns:minmax(180px,.74fr) minmax(270px,1.1fr); align-items:end; gap:18px; }
+.hero-profile { display:grid; grid-template-columns:minmax(220px, 0.8fr) minmax(320px,1.15fr); align-items:end; gap:22px; }
 .portrait-frame {
-  padding:8px;
+  padding:10px;
   border:1px solid rgba(255,255,255,.48);
   background:rgba(255,255,255,.12);
   box-shadow:var(--shadow);
 }
 .portrait-frame img { width:100%; aspect-ratio: 446 / 628; object-fit:cover; }
 .education-card {
-  padding:24px;
+  padding:30px;
   border:1px solid rgba(255,255,255,.36);
   background:rgba(255,255,255,.07);
   backdrop-filter:blur(12px);
@@ -155,12 +155,12 @@ a { color: inherit; }
 }
 .education-row { display:flex; gap:16px; align-items:flex-start; justify-content:space-between; }
 .education-row-stacked { align-items:flex-end; }
-.education-degree { margin:0; font-weight:720; font-size:1.02rem; }
-.education-school, .education-minor { margin:5px 0 0; color:var(--muted); font-size:.9rem; }
+.education-degree { margin:0; font-weight:720; font-size:1.2rem; }
+.education-school, .education-minor { margin:5px 0 0; color:var(--muted); font-size:1.05rem; }
 .education-minor { font-weight:700; color:#fff; }
-.school-logo.usc { width:48px; background:#000; }
-.dual-logos { display:grid; gap:8px; width:92px; flex:none; }
-.dual-logos img { max-height:30px; width:100%; object-fit:contain; object-position:right; }
+.school-logo.usc { width:60px; background:#000; }
+.dual-logos { display:grid; gap:8px; width:110px; flex:none; }
+.dual-logos img { max-height:36px; width:100%; object-fit:contain; object-position:right; }
 .education-divider { height:1px; background:var(--line); margin:20px 0; }
 
 .selected-work { padding: 94px 0 116px; }
@@ -335,17 +335,3 @@ a { color: inherit; }
   .site-footer { flex-direction:column; }
 }
 
-/* Increase small text throughout site */
-.eyebrow,
-.education-school,
-.education-minor,
-.project-card-content p,
-.project-kicker,
-.project-number,
-.label,
-.image-panel figcaption,
-.code-card p,
-.mini-panel p,
-.site-footer {
-  font-size: 1.2rem !important;
-}
