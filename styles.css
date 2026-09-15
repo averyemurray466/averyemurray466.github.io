@@ -410,8 +410,8 @@ a { color: inherit; }
 }
 
 .prototype-stack .image-panel:last-child img {
-  object-fit: cover;
-  object-position: center 35%;
+  object-fit: contains;
+  object-position: center 30%;
 }
 
 .prototype-arrow {
