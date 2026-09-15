@@ -355,10 +355,10 @@ a { color: inherit; }
 
 /* MOTOR DRIVERS + MICROCONTROLLER */
 .circle-control {
-  width: 19%;
+  width: 21%;
   aspect-ratio: 1;
   top: 36.5%;
-  left: 36.5%;
+  left: 35%;
 }
 
 
