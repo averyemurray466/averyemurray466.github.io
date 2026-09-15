@@ -259,6 +259,13 @@ a { color: inherit; }
   pointer-events: none;
 }
 
+.component-connectors line {
+  stroke: white;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+}
+
 /* WHITE CIRCLES */
 
 .component-circle {
@@ -284,6 +291,38 @@ a { color: inherit; }
   font-weight: 650;
   line-height: 1.2;
   text-align: center;
+}
+
+/* BLUE LABEL POSITIONS */
+
+.label-pumps {
+  top: 4%;
+  left: 1.5%;
+  width: 20%;
+}
+
+.label-sensors {
+  top: 6%;
+  left: 30%;
+  width: 22%;
+}
+
+.label-valves {
+  top: 40%;
+  left: 1.5%;
+  width: 24%;
+}
+
+.label-control {
+  top: 50%;
+  left: 1.5%;
+  width: 30%;
+}
+
+.label-mux {
+  top: 38%;
+  left: 75%;
+  width: 23%;
 }
 
 
