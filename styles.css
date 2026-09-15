@@ -409,6 +409,11 @@ a { color: inherit; }
   background: rgba(255,255,255,.04);
 }
 
+.prototype-stack .image-panel:last-child img {
+  object-fit: cover;
+  object-position: center 35%;
+}
+
 .prototype-arrow {
   color: white;
   font-size: 5rem;
