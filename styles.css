@@ -398,6 +398,17 @@ a { color: inherit; }
   align-items: center;
 }
 
+.prototype-stack .image-panel {
+  width: 100%;
+}
+
+.prototype-stack .image-panel img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: rgba(255,255,255,.04);
+}
+
 .prototype-arrow {
   color: white;
   font-size: 5rem;
@@ -406,17 +417,6 @@ a { color: inherit; }
   justify-self: center;
   align-self: center;
 }
-
-.prototype-stack .image-panel img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-
-.prototype-stack .image-panel:last-child img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-
 .testing-headline {
   grid-column: 1 / -1;
   width: 100%;
