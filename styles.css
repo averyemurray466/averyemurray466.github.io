@@ -476,7 +476,7 @@ a { color: inherit; }
 .metric-block span { display:block; margin-top:16px; max-width:220px; font-weight:700; color:rgba(255,255,255,.82); }
 .prosthetic-grid { grid-template-columns:0.9fr 1.1fr; align-items:start; }
 .prosthetic-grid .showcase-image { width:100%; }
-.prosthetic-grid .showcase-image img { width:100%; height:520px; min-height:0; object-fit:cover; }
+.prosthetic-grid .showcase-image img { width:100%; height:600px; min-height:0; object-fit:contain; }
 
 .emg-grid { display:grid; grid-template-columns:.8fr 1.2fr; gap:18px; }
 .emg-figure img { background:#fff; width:100%; object-fit:contain; }
