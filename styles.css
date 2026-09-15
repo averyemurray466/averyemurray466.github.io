@@ -390,17 +390,17 @@ a { color: inherit; }
 
 .prototype-stack {
   grid-column: 1 / -1;
-  width: 88%;
+  width: 82%;
   justify-self: center;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  gap: 18px;
+  gap: 32px;
   align-items: center;
 }
 
 .prototype-arrow {
   color: white;
-  font-size: 3.4rem;
+  font-size: 5rem;
   font-weight: 700;
   line-height: 1;
   justify-self: center;
@@ -418,14 +418,15 @@ a { color: inherit; }
 
 .testing-headline {
   grid-column: 1 / -1;
-  max-width: 780px;
-  margin: -2px auto 0;
+  width: 100%;
+  max-width: none;
+  margin: 12px auto 0;
   text-align: center;
 }
 
 .testing-headline h3 {
   margin: 0;
-  font-size: clamp(1.8rem,3.2vw,2.9rem);
+  font-size: clamp(2.6rem, 4vw, 3.8rem);
   line-height: 1.08;
   letter-spacing: -.035em;
   font-weight: 500;
@@ -433,7 +434,7 @@ a { color: inherit; }
 
 .pressure-panel {
   grid-column: 1 / -1;
-  width: 82%;
+  width: 72%;
   justify-self: center;
 }
 
