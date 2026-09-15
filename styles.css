@@ -384,15 +384,27 @@ a { color: inherit; }
 
 .testing-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 18px;
 }
 
 .prototype-stack {
   grid-column: 1 / -1;
+  width: 88%;
+  justify-self: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto 1fr;
   gap: 18px;
+  align-items: center;
+}
+
+.prototype-arrow {
+  color: white;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1;
+  justify-self: center;
+  align-self: center;
 }
 
 .prototype-stack .image-panel img {
@@ -400,8 +412,23 @@ a { color: inherit; }
   object-fit: cover;
 }
 
-.prototype-stack .image-panel:nth-child(2) img {
+.prototype-stack .image-panel:last-child img {
   object-fit: contain;
+}
+
+.testing-headline {
+  grid-column: 1 / -1;
+  max-width: 780px;
+  margin: -2px auto 0;
+  text-align: center;
+}
+
+.testing-headline h3 {
+  margin: 0;
+  font-size: clamp(1.8rem,3.2vw,2.9rem);
+  line-height: 1.08;
+  letter-spacing: -.035em;
+  font-weight: 500;
 }
 
 .pressure-panel {
@@ -414,8 +441,20 @@ a { color: inherit; }
   width: 100%;
   background: #fff;
 }
-.result-callout { margin:0 16px 18px; padding:18px; border-radius:18px; background:#176b89; border:1px solid rgba(255,255,255,.35); font-weight:760; text-align:center; }
-.result-callout.standalone { margin:0; }
+
+.result-callout {
+  margin: 0 16px 18px;
+  padding: 18px;
+  border-radius: 18px;
+  background: #176b89;
+  border: 1px solid rgba(255,255,255,.35);
+  font-weight: 760;
+  text-align: center;
+}
+
+.result-callout.standalone {
+  margin: 0;
+}
 
 .compact-project { padding-top:100px; }
 .compact-project-grid { display:grid; grid-template-columns:.8fr 1fr .8fr; gap:18px; align-items:stretch; }
@@ -502,4 +541,7 @@ a { color: inherit; }
   .metric-block { min-height:220px; }
   .site-footer { flex-direction:column; }
   .control-diagrams { grid-template-columns:1fr; }
+  .prototype-stack {width: 100%; grid-template-columns: 1fr;}
+  .prototype-arrow {display: none;}
+  .pressure-panel { width: 100%;}
 }
