@@ -413,6 +413,9 @@ a { color: inherit; }
 }
 
 .prototype-stack .image-panel:last-child img {
+  aspect-ratio: auto;
+  width: 100%;
+  height: auto;
   object-fit: contain;
 }
 
