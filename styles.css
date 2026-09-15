@@ -382,10 +382,32 @@ a { color: inherit; }
 .control-cycle-diagram,
 .safety-check-diagram { width:100%; height:auto; display:block; }
 
-.testing-grid { display:grid; grid-template-columns:.85fr 1.15fr; gap:18px; }
-.prototype-stack { display:grid; gap:18px; }
-.prototype-stack .image-panel img { aspect-ratio: 16/9; object-fit:cover; }
-.pressure-panel img { width:100%; background:#fff; }
+.testing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.prototype-stack {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.prototype-stack .image-panel img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.pressure-panel {
+  grid-column: 1 / -1;
+}
+
+.pressure-panel img {
+  width: 100%;
+  background: #fff;
+}
 .result-callout { margin:0 16px 18px; padding:18px; border-radius:18px; background:#176b89; border:1px solid rgba(255,255,255,.35); font-weight:760; text-align:center; }
 .result-callout.standalone { margin:0; }
 
