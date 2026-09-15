@@ -400,8 +400,14 @@ a { color: inherit; }
   object-fit: cover;
 }
 
+.prototype-stack .image-panel:nth-child(2) img {
+  object-fit: contain;
+}
+
 .pressure-panel {
   grid-column: 1 / -1;
+  width: 82%;
+  justify-self: center;
 }
 
 .pressure-panel img {
